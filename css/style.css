@@ -230,8 +230,8 @@ body {
 .hobbies-img {
     border-radius: 12px;
     overflow: hidden;
-    width: 370px;
-    height: 139px;
+    max-width: 370px;
+    max-height: 139px;
 }
 
 .hobbies-legend {
@@ -247,16 +247,7 @@ body {
     margin-bottom: 36px;
 }
 
-
-
-
-
-
-
-
-
-
-
+/*------ ESXPERIENCIES CONTAINER ---------*/
 .experiencies-container {
     grid-area: experiencies;
 
@@ -270,4 +261,75 @@ body {
     color: #4F4F4F;
     font-weight: 500;
     margin: 22px;
+}
+
+.experiencies-content {
+    margin: 44px 31px;
+}
+
+.experiencies-info {
+    display: flex;
+    margin: 45px 0;
+}
+
+.experiencies-img {
+    max-width: 120px;
+    max-height: 84px;
+    margin-right: 22px;
+}
+
+.experiencies-detail span{
+    display: block;
+    font-size: 14px;
+    color: #828282;
+    line-height: 17px;
+    margin-bottom: 12px;
+}
+
+.experiencies-detail h4 {
+    color: #333333;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.experiencies-detail p {
+    color: #828282;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------ FOOTER ---------*/
+footer {
+    width: 100%;
+}
+
+footer p {
+    width: 350px;
+    color: #828282;
+    margin: 24px auto;
+    font-size: 14px;
+}
+
+footer a {
+    color: #828282;
+    font-weight: 700;
+    text-decoration: underline;
 }
