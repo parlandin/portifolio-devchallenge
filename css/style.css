@@ -27,7 +27,7 @@ body {
 .header {
     display: flex;
     max-width: 1046px;
-    max-height: 311px;
+    min-height: 311px;
     margin: 40px auto 0px auto;
     border-radius: 12px;
     background-color: white;
@@ -95,6 +95,24 @@ body {
     margin-bottom: 25px;
 }
 
+
+@media (max-width: 750px) {
+    .header {
+        flex-direction: column;
+    }
+    .information-container {
+        flex-direction: column;
+        margin: 25px;
+    }
+    .pesson-info {
+        margin-bottom: 15px;
+    }
+    .about-text {
+        margin: 25px;
+    }
+}
+
+
 /*------ MAIN GRID ---------*/
 
 .principal-container {
@@ -110,6 +128,17 @@ body {
 
     margin: 42px auto;
     border-radius: 12px;
+}
+
+@media (max-width:718px) {
+    .principal-container {
+        grid-template-columns:  minmax(200px, 415px) minmax(200px, 596px);
+        grid-template-areas:
+        "skill  skill"
+        "blog blog"
+        "hobbies hobbies"
+        "experiencies experiencies";
+    }
 }
 
 /*------ SKILL AREA ---------*/
@@ -273,8 +302,8 @@ body {
 }
 
 .experiencies-img {
-    max-width: 120px;
-    max-height: 84px;
+    width: 120px;
+    height: 84px;
     margin-right: 22px;
 }
 
@@ -300,20 +329,123 @@ body {
     line-height: 20px;
 }
 
+/*------ PROJECTS BUTTONS---------*/
+.menu-projects {
+    margin: 0 auto;
+    max-width: 1046px;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 42px;
+}
+
+.menu-projects h3 {
+    padding: 22px 22px 16px 22px ;
+    color: #4F4F4F;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.buttons input{
+    border-radius: 12px;
+    width: 85px;
+    height: 33px;
+    border:1px solid #4F4F4F;
+    margin: 0px 16px 22px 0px;
+    font-size: 14px;
+    color: #4F4F4F;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.buttons input:first-child {
+    margin-left: 22px;
+}
+
+.buttons input:hover, .buttons input[aria-selected="true"]{
+    background-color: #2F80ED;
+    color: white;
+    border: 1px solid #2F80ED
+}
 
 
+/*------ PROJECTS CONTENT---------*/
 
+.projects-container {
+    max-width: 1046px;
+    display: flex;
+    margin: 0 auto  150px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
+.projects-content {
+    max-width: 329px;
+    border-radius: 12px;
+    background-color: white;
+}
 
+.project-img {
+    width: 292px;
+    height:217px;
+    background-color: rgb(199, 199, 185);
+    margin:18px 18px 24px 18px;
+    border-radius: 12px;
+}
 
+.project-tags {
+    margin-left: 18px;
+    font-size: 16px;
+    color: #4F4F4F;
+    margin-bottom: 22px;
+}
 
+.project-tags span + span {
+    margin-left: 9px;
+}
 
+.project-info {
+    margin-left: 18px;
+    margin-bottom: 40px;
+}
 
+.project-info h4 {
+    font-size: 24px;
+    color: #333333;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
 
+.project-info p {
+    font-size: 16px;
+    color: #828282;
+    line-height: 20px;
+}
 
+.project-buttons {
+    margin: 0px 0px 33px 18px;
+}
 
+.project-buttons  input {
+    background-color: #2F80ED;
+    width: 135px;
+    height: 46px;
+    border-radius: 12px;
+    font-size: 18px;
+    color: white;
+    border: 1px solid #2F80ED;
+    cursor: pointer;
+}   
 
-
+.project-buttons  input:last-of-type {
+    background-color:transparent;
+    color: #2F80ED;
+    border: 1px solid #2F80ED;
+    box-sizing: border-box;
+    margin-left: 11px;
+}
 
 
 /*------ FOOTER ---------*/
