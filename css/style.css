@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a, li {
+    text-decoration: none;
+    color:black;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#F2F2F2;
+}
+
+
+/*-----------HEADER-----------*/ 
+
+.header {
+    display: flex;
+    max-width: 1046px;
+    max-height: 311px;
+    margin: 40px auto 0px auto;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.phofile-img {
+    max-width: 272px;
+    max-height: 266px;
+    border-radius: 12px;
+    margin: 22px 33px 22px 25px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.person-content {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.information-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+
+.pesson-info h1 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #4F4F4F;
+}
+
+.pesson-info span {
+    color:#828282;
+    font-size: 18px;
+}
+
+.contat-info {
+    margin-right: 20px;
+    color: #4F4F4F;
+    font-size: 18px;
+}
+
+.contat-info div {
+    margin-bottom: 10px;
+}
+
+.contat-info div{
+    display: flex;
+    align-items: center;
+}
+
+.contat-info div i {
+    margin-right: 18px;
+}
+
+.about-text {
+    color: #828282;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.about-text p:first-child {
+    margin-bottom: 25px;
+}
+
+/*------ MAIN GRID ---------*/
+
+.principal-container {
+    display: grid;
+    max-width: 1046px;
+    grid-template-columns:  minmax(200px, 415px) minmax(200px, 596px);
+    grid-template-areas:
+    "skill  blog"
+    "hobbies blog"
+    "hobbies experiencies";
+    gap: 42px 35px;
+
+
+    margin: 42px auto;
+    border-radius: 12px;
+}
+
+/*------ SKILL AREA ---------*/
+.skills-container {
+    grid-area: skill;
+    height: 303px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.skills-container h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4F4F4F;
+    margin: 23px;
+}
+
+.list-skill li{
+    font-size: 16px;
+    color: #4F4F4F;
+    margin:0px 0px 17px  23px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* BARRA DE PORCENTAGEM*/ 
+.box-percentage {
+    background-color: #C4C4C4;
+    width: 237px;
+    height: 9px;
+    border-radius: 12px;
+    margin-right: 23px;
+}
+
+.box-percentage .line-level {
+    width: 60%;
+    height: 100%;
+    background-color: #2F80ED;
+    border-radius: 12px;
+}
+
+
+/*------ BLOG CONTAINER ---------*/
+.blog-container {
+    grid-area: blog;
+    height: 656px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.blog-container h2 {
+    font-size: 16px;
+    color: #E0E0E0;
+    margin: 31px 20px;
+    font-weight: 500;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.blog-content h2 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    max-width: 180px;
+
+}
+
+.blog-img {
+    border-radius: 12px 0px 0px 12px;
+    overflow: hidden;
+    max-width: 360px;
+    max-height: 321px;
+}
+
+.blog-text {
+    margin: 50px 0px 66px 22px;
+}
+
+.blog-text p{
+    font-size: 16px;
+    color: #828282;
+    margin-bottom: 35px;
+}
+
+.blog-container a {
+    color:#2F80ED;
+    font-size: 16px;
+    margin: 32px 20px;
+}
+
+
+/*------ HOBBIES CONTAINER ---------*/
+.hobbies-container {
+    grid-area: hobbies;
+    height: 836px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.hobbies-container h2 {
+    font-size: 24px;
+    color: #4F4F4F;
+    font-weight: 500;
+    margin: 22px;
+}
+
+.hobbies-content {
+    margin: 22px;
+}
+
+.hobbies-img {
+    border-radius: 12px;
+    overflow: hidden;
+    width: 370px;
+    height: 139px;
+}
+
+.hobbies-legend {
+    margin:26px 0 10px 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+}
+
+.hobbies-text {
+    color:#828282;
+    font-size: 16px;
+    margin-bottom: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.experiencies-container {
+    grid-area: experiencies;
+
+    height: 482px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.experiencies-container h2{
+    font-size: 24px;
+    color: #4F4F4F;
+    font-weight: 500;
+    margin: 22px;
+}
