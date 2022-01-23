@@ -177,11 +177,55 @@ body {
 }
 
 .box-percentage .line-level {
-    width: 60%;
     height: 100%;
     background-color: #2F80ED;
     border-radius: 12px;
 }
+
+.box-percentage  .l1 {
+    width: 40%;
+}
+
+.box-percentage  .l2 {
+    width: 80%;
+}
+
+.box-percentage  .l3{
+    width: 80%;
+}
+
+.box-percentage  .l4 {
+    width: 50%;
+}
+
+.box-percentage  .l5{
+    width: 70%;
+}
+
+.box-percentage  .l6 {
+    width: 60%;
+}
+
+
+@media (max-width:830px) {
+    .box-percentage {
+        width: 170px;
+    }
+ }
+
+
+
+@media (max-width:718px) {
+   .box-percentage {
+        margin: 0 30px;
+   }
+}
+
+@media (max-width:718px) {
+    .box-percentage {
+        margin: 0 10px;
+    }
+ }
 
 
 /*------ BLOG CONTAINER ---------*/
@@ -240,7 +284,7 @@ body {
 /*------ HOBBIES CONTAINER ---------*/
 .hobbies-container {
     grid-area: hobbies;
-    height: 836px;
+    min-height: 836px;
     background-color: white;
     border-radius: 12px;
 }
@@ -280,7 +324,7 @@ body {
 .experiencies-container {
     grid-area: experiencies;
 
-    height: 482px;
+    min-height: 482px;
     background-color: white;
     border-radius: 12px;
 }
@@ -302,7 +346,7 @@ body {
 }
 
 .experiencies-img {
-    width: 120px;
+    min-width: 120px;
     height: 84px;
     margin-right: 22px;
 }
@@ -363,7 +407,7 @@ body {
     margin-left: 22px;
 }
 
-.buttons input:hover, .buttons input[aria-selected="true"]{
+.buttons input:hover, .buttons input[data-active="true"]{
     background-color: #2F80ED;
     color: white;
     border: 1px solid #2F80ED
@@ -377,14 +421,18 @@ body {
     display: flex;
     margin: 0 auto  150px auto;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
 }
 
 .projects-content {
     max-width: 329px;
     border-radius: 12px;
     background-color: white;
+    margin-bottom: 10px;
+}
+
+.projects-content +.projects-content { 
+    margin-left: 29px;
 }
 
 .project-img {
@@ -393,6 +441,7 @@ body {
     background-color: rgb(199, 199, 185);
     margin:18px 18px 24px 18px;
     border-radius: 12px;
+    overflow: hidden;
 }
 
 .project-tags {
@@ -445,6 +494,19 @@ body {
     border: 1px solid #2F80ED;
     box-sizing: border-box;
     margin-left: 11px;
+}
+
+
+@media (max-width:1061px) {
+    .projects-content + .projects-content  + .projects-content{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:703px) {
+    .projects-content   + .projects-content{
+        margin-top: 30px;
+    }
 }
 
 
