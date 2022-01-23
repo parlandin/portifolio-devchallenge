@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot]("./images/foto-capa")
+![screenshot](https://github.com/Gu-Parlandim/portifolio-devchallenge/blob/master/images/foto-capa.jpeg)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -50,9 +50,9 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [Htmlc]
-- [Css](
-- [JavaScript](
+- Htmlc
+- Css
+- JavaScript
 
 ## Features
 
@@ -82,5 +82,5 @@ $ git clone https://github.com/Gu-Parlandim/portifolio-devchallenge
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/Gu-Parlandim)
-- Instagram [@your-twitter](https://www.instagram.com/parlandim_dev/)
+- GitHub [@Gu-Parlandim](https://github.com/Gu-Parlandim)
+- Instagram [@parlandim-dev](https://www.instagram.com/parlandim_dev/)
