@@ -4,7 +4,9 @@
 
 ## Overview
 
-![screenshot](https://github.com/Gu-Parlandim/portifolio-devchallenge/blob/master/images/foto-capa.jpeg)
+<div align="center">
+   <img src="https://github.com/Gu-Parlandim/portifolio-devchallenge/blob/master/images/foto-capa.jpeg" alt="exemple" >
+</div>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
