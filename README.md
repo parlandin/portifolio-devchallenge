@@ -2,6 +2,10 @@
 
 <h1 align="center">Portfolio DevChallenge</h1>
 
+## Overview
+
+![screenshot](https://github.com/Gu-Parlandim/portifolio-devchallenge/blob/master/images/foto-capa.jpeg)
+
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
@@ -22,29 +26,6 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [How to use](#how-to-use)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
-
-## Overview
-
-![screenshot](https://github.com/Gu-Parlandim/portifolio-devchallenge/blob/master/images/foto-capa.jpeg)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
 
 ### Built With
 
